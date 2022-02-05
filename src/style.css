@@ -1,0 +1,87 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: "Zen Antique Soft", serif; */
+  font-family: "Roboto", sans-serif;
+}
+
+.app {
+  color: #ff0000;
+}
+
+.header {
+  background: rgb(32, 79, 110);
+  background: linear-gradient(
+    90deg,
+    rgba(32, 79, 110, 1) 0%,
+    rgba(46, 139, 87, 1) 50%,
+    rgba(32, 79, 110, 1) 94%
+  );
+  color: #fff;
+  padding: 50px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.catalog-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.film-card {
+  width: 360px;
+  min-width: 360px;
+  margin-bottom: 30px;
+  box-shadow: 8px 8px 24px 0px rgba(46, 137, 88, 0.5);
+  background-color: rgba(170, 184, 176, 0.1);
+}
+
+.film-img {
+  width: 358px;
+  height: 520px;
+}
+
+.footer {
+  background-color: #287062;
+  color: white;
+  margin-top: 40px;
+  padding: 50px;
+}
+
+.loader {
+  min-height: 500px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader__container {
+  text-align: center;
+}
+
+.loader__container h6 {
+  margin-top: 30px;
+  color: #198754;
+}
+
+.notfound {
+  min-height: 500px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.movie-poster {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
